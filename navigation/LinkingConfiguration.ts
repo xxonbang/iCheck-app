@@ -6,14 +6,29 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
+          Main: {
             screens: {
-              TabOneScreen: 'one',
+              MainScreen: 'main',
             },
           },
-          TabTwo: {
+          CheckInHistory: {
             screens: {
-              TabTwoScreen: 'two',
+              CheckInHistoryScreen: 'checkInHistory',
+            },
+          },
+          DeviceRegistration: {
+            screens: {
+              DeviceRegistrationScreen: 'deviceRegistration',
+            },
+          },
+          ShowMap: {
+            screens: {
+              ShowMapScreen: 'showMap',
+            },
+          },
+          Help: {
+            screens: {
+              HelpScreen: 'help',
             },
           },
         },

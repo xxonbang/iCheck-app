@@ -1,17 +1,33 @@
 export type RootStackParamList = {
+  Login: undefined;
   Root: undefined;
   NotFound: undefined;
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  // Main: undefined;
+  // CheckInHistory: undefined;
+  // DeviceRegistration: undefined;
+  // ShowMap: undefined;
+  // Help: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type MainParamList = {
+  MainScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type CheckInHistoryParamList = {
+  CheckInHistoryScreen: undefined;
+};
+
+export type DeviceRegistrationParamList = {
+  DeviceRegistrationScreen: undefined;
+};
+
+export type ShowMapParamList = {
+  ShowMapScreen: undefined;
+};
+
+export type HelpParamList = {
+  HelpScreen: undefined;
 };
